@@ -3,7 +3,7 @@
 
 function create(){
     cd 
-    python3 ~/projects/automate_init/init_script.py $1 $2
+    python3 ~/projects/project_init/init_script.py $1 $2
     cd ~/projects/$1
     git init
     git remote add origin https://github.com/$3/$1.git

@@ -1,6 +1,11 @@
 # Script that inits a Github repo and folder for a given project
 
-## Usage
+## Setup
+    git clone https://github.com/Her0elt/project_init.git
+    cd project_init
+
+inside the .sh file on line 6 you will need to change the location of the python file to where yours is located and inside the python script on line 6 you will need to change the path varible to where you want the script to create the folder
+
 ### Linux
 
 #### Add the add the .sh script to your terminal rc like so 
